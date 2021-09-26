@@ -19,7 +19,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r requirement.txt
       - name: Run tests with pytest
         run: pytest
   run_unit_test:
@@ -34,6 +34,6 @@ jobs:
         run: |
           ls
           pwd
-          cat /etc/os-releases
+          cat /etc/os-release
           sleep 300
 
